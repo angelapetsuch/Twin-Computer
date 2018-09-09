@@ -130,14 +130,13 @@ h1, h5 {
 #footer {
 	height: 150px;
 	width: 100%;
-	background-color: rgb(52, 58, 64);
 	padding-top: 10px;
 	opacity: .95;
 }
 p a {
 	letter-spacing: .2em;
 	margin-right: 2px;
-	color: #fff;
+	color: white;
 }
 div p a:hover {
 	text-decoration: none;
