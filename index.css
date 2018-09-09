@@ -47,14 +47,13 @@ nav {
 body, html {
 	height: 100%;
 }
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: #343a40;
 	background-color: #fff;
-	margin-bottom: 175px;
 	min-height: 400px;
-	clear: both;
 	text-align: center;
 }
 p {
@@ -129,11 +128,16 @@ h1, h5 {
 /* footer styles */
 /****************/
 #footer {
-	height: 175px;
+	height: 150px;
+	width: 100%;
+	background-color: rgb(52, 58, 64);
+	padding-top: 10px;
+	opacity: .95;
 }
 p a {
 	letter-spacing: .2em;
 	margin-right: 2px;
+	color: #fff;
 }
 div p a:hover {
 	text-decoration: none;
