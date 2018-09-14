@@ -3,16 +3,13 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<title>Twin Computer</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet">
-			<link rel="stylesheet" type="text/css" href="index.css">
-
-
-
+	<link href="https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Twin Computer</a>
@@ -23,7 +20,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#" id="active-color">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Services</a>
@@ -34,21 +31,18 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
       	<li class="nav-link">
-<!--         	<span id="call">Call Now!</span>
- -->        	<a href="tel:651-387-4564" id="btn-call"><i class="fas fa-phone"> </i>
+        	<a href="tel:651-387-4564" id="btn-call" style=""><i class="fas fa-phone"> </i>
         	</span> (651) 387-4564</a>
         </li>
       </ul>
   </div>
 </nav>
+
 <div class="hero-image">
 	<div class="hero-text">
 		<h1>Your Neighborhood IT Solution</h1>
-
-
 	</div>
-</div>
-		
+</div>	
 
 <div class="container-fluid">
 <!-- grid of services -->
@@ -56,9 +50,8 @@
 	<div class="col-lg-3 col-md-3 col-sm-5">
 		<div class="service-card">
 			<div class="service-card__top">
-			<i class="fas fa-laptop fa-lg">
-				<p>Computers</p>
-			</i>
+			<i class="fas fa-laptop fa-lg"></i>
+			<p>Computers</p>
 			</div>
 		</div>
 	</div>
@@ -66,9 +59,8 @@
 	<div class="col-lg-3 col-md-3 col-sm-5">
 		<div class="service-card">
 			<div class="service-card__top">
-				<i class="fas fa-server fa-lg">
-					<p>Servers</p>
-				</i>
+				<i class="fas fa-server fa-lg"></i>
+				<p>Servers</p>
 			</div>
 		</div>
 	</div>
@@ -76,9 +68,8 @@
 	<div class="col-lg-3 col-md-3 col-sm-5">
 		<div class="service-card">
 			<div class="service-card__top">
-				<i class="fas fa-exchange-alt fa-lg">
-					<p>Networks</p>
-				</i>
+				<i class="fas fa-exchange-alt fa-lg"></i>
+				<p>Networks</p>
 			</div>
 		</div>
 	</div>
@@ -86,9 +77,8 @@
 	<div class="col-lg-3 col-md-3 col-sm-5">
 		<div class="service-card">
 			<div class="service-card__top">
-				<i class="fas fa-wifi fa-lg">
-					<p>Wireless</p>
-				</i>
+				<i class="fas fa-wifi fa-lg"></i>
+				<p>Wireless</p>
 			</div>
 		</div>
 	</div>
@@ -96,9 +86,8 @@
 	<div class="col-lg-3 col-md-3 col-sm-5">
 		<div class="service-card">
 			<div class="service-card__top">
-				<i class="fas fa-undo-alt fa-lg">
-					<p>Backups</p>
-				</i>
+				<i class="fas fa-undo-alt fa-lg"></i>
+				<p>Backups</p>
 			</div>
 		</div>
 	</div>
@@ -106,20 +95,8 @@
 	<div class="col-lg-3 col-md-3 col-sm-5">
 		<div class="service-card">
 			<div class="service-card__top">
-				<i class="fas fa-save fa-lg">
+				<i class="fas fa-save fa-lg"></i>
 				<p>Software</p>
-				</i>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="col-lg-3 col-md-3 col-sm-5">
-		<div class="service-card">
-			<div class="service-card__top">
-				<i class="fas fa-hdd fa-lg">
-					<p>Hardware</p>
-				</i>
 			</div>
 		</div>
 	</div>
@@ -127,16 +104,25 @@
 	<div class="col-lg-3 col-md-3 col-sm-5">
 		<div class="service-card">
 			<div class="service-card__top">
-				<i class="fas fa-bug fa-lg">
-					<p>Virus</p>
-				</i>
+				<i class="fas fa-hdd fa-lg"></i>
+				<p>Hardware</p>
 			</div>
 		</div>
 	</div>
 
+	<div class="col-lg-3 col-md-3 col-sm-5">
+		<div class="service-card">
+			<div class="service-card__top">
+				<i class="fas fa-bug fa-lg"></i>
+				<p>Virus</p>
+			</div>
+		</div>
+	</div>
 </div>
+</div>
+
 <hr>
-</div>
+
 	<div id="footer" class="bg-dark">
 		<div class="container">
 			<p class="text-muted">CompTIA A+ & CompTIA Network+ Certified Professionals Servicing the Twin Cities </p>
@@ -148,14 +134,13 @@
 				</p>
 				<p><a href="http://www.powweb.com/mail/" class="white">Webmail</a>
 				<a href="ftp://ftp.twincomputer.com/" class="white">FTP</a></p>	
-
 		</div>
 	</div>
+
 </body>
-
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </html>
