@@ -50,6 +50,8 @@ nav {
 /***********************/
 body, html {
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -60,9 +62,10 @@ body {
 	min-height: 400px;
 	text-align: center;
 }
-p {
+.card-text {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
+	font-size: 1.2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -127,7 +130,7 @@ h1, h5 {
 		  min-height: 292px;
 }
 i {
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 }
 
 
@@ -135,7 +138,7 @@ i {
 /* footer styles */
 /****************/
 #footer {
-	height: 150px;
+	height: 170px;
 	width: 100%;
 	padding-top: 10px;
 	opacity: .95;
